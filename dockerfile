@@ -1,4 +1,3 @@
-FROM ubuntu:18.04
 FROM node:16
 
 WORKDIR /usr/src/app
