@@ -1,8 +1,9 @@
-FROM node
+FROM ubuntu:18.04
+FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+RUN mkdir -p /usr/src/app
 
 RUN npm install
 
