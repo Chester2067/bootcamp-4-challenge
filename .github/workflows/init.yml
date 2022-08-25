@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: chester2076
-  IMAGES_NAME : chester2076/bootcamp-fredderick
+  IMAGES_NAME : chester2076/bootcamp-fredderick:latest
 
 
 jobs:
