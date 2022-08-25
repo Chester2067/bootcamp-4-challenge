@@ -9,8 +9,8 @@ on:
     branches: [ "master" ]
 
 env:
-  REGISTRY: chester2076
-  IMAGES_NAME : chester2076/bootcamp-fredderick:latest
+  
+  IMAGES_NAME: chester2076/bootcamp-fredderick
 
 
 jobs:
@@ -48,4 +48,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ env.IMAGE_NAME }}
+        tags: ${{ env.IMAGES_NAME }}
